@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A9B7AD3F2B0F6DD400D5AF06 /* FirstCapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7AD3E2B0F6DD400D5AF06 /* FirstCapstoneApp.swift */; };
-		A9B7AD412B0F6DD400D5AF06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7AD402B0F6DD400D5AF06 /* ContentView.swift */; };
+		A9B7AD412B0F6DD400D5AF06 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7AD402B0F6DD400D5AF06 /* WelcomeView.swift */; };
 		A9B7AD432B0F6DD600D5AF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B7AD422B0F6DD600D5AF06 /* Assets.xcassets */; };
 		A9B7AD462B0F6DD600D5AF06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B7AD452B0F6DD600D5AF06 /* Preview Assets.xcassets */; };
-		A9B7AD502B126BBE00D5AF06 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7AD4F2B126BBE00D5AF06 /* SwiftUIView.swift */; };
+		B4B622342B150FFD00D7EE8C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B622332B150FFD00D7EE8C /* OnboardingView.swift */; };
+		B4B622362B152ED200D7EE8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B622352B152ED200D7EE8C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9B7AD3B2B0F6DD400D5AF06 /* FirstCapstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstCapstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B7AD3E2B0F6DD400D5AF06 /* FirstCapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCapstoneApp.swift; sourceTree = "<group>"; };
-		A9B7AD402B0F6DD400D5AF06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9B7AD402B0F6DD400D5AF06 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A9B7AD422B0F6DD600D5AF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B7AD452B0F6DD600D5AF06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A9B7AD4F2B126BBE00D5AF06 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B4B622332B150FFD00D7EE8C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B4B622352B152ED200D7EE8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 				A9B7AD4C2B126ADC00D5AF06 /* View */,
 				B4849DFB2B14A25D005EBD51 /* ViewModel */,
 				A9B7AD3E2B0F6DD400D5AF06 /* FirstCapstoneApp.swift */,
-				A9B7AD402B0F6DD400D5AF06 /* ContentView.swift */,
+				B4B622352B152ED200D7EE8C /* ContentView.swift */,
 				A9B7AD422B0F6DD600D5AF06 /* Assets.xcassets */,
 				A9B7AD442B0F6DD600D5AF06 /* Preview Content */,
 			);
@@ -75,7 +77,8 @@
 		A9B7AD4C2B126ADC00D5AF06 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A9B7AD4F2B126BBE00D5AF06 /* SwiftUIView.swift */,
+				A9B7AD402B0F6DD400D5AF06 /* WelcomeView.swift */,
+				B4B622332B150FFD00D7EE8C /* OnboardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,9 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B7AD412B0F6DD400D5AF06 /* ContentView.swift in Sources */,
+				A9B7AD412B0F6DD400D5AF06 /* WelcomeView.swift in Sources */,
 				A9B7AD3F2B0F6DD400D5AF06 /* FirstCapstoneApp.swift in Sources */,
-				A9B7AD502B126BBE00D5AF06 /* SwiftUIView.swift in Sources */,
+				B4B622362B152ED200D7EE8C /* ContentView.swift in Sources */,
+				B4B622342B150FFD00D7EE8C /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
