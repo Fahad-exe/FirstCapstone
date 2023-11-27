@@ -53,7 +53,9 @@
 		A9B7AD3D2B0F6DD400D5AF06 /* FirstCapstone */ = {
 			isa = PBXGroup;
 			children = (
+				B4849DFA2B14A24C005EBD51 /* Model */,
 				A9B7AD4C2B126ADC00D5AF06 /* View */,
+				B4849DFB2B14A25D005EBD51 /* ViewModel */,
 				A9B7AD3E2B0F6DD400D5AF06 /* FirstCapstoneApp.swift */,
 				A9B7AD402B0F6DD400D5AF06 /* ContentView.swift */,
 				A9B7AD422B0F6DD600D5AF06 /* Assets.xcassets */,
@@ -76,6 +78,20 @@
 				A9B7AD4F2B126BBE00D5AF06 /* SwiftUIView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B4849DFA2B14A24C005EBD51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B4849DFB2B14A25D005EBD51 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
