@@ -12,6 +12,8 @@
 		A9B7AD432B0F6DD600D5AF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B7AD422B0F6DD600D5AF06 /* Assets.xcassets */; };
 		A9B7AD462B0F6DD600D5AF06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B7AD452B0F6DD600D5AF06 /* Preview Assets.xcassets */; };
 		A9B7AD502B126BBE00D5AF06 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7AD4F2B126BBE00D5AF06 /* SwiftUIView.swift */; };
+		A9B7ADA62B152B5C00D5AF06 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7ADA52B152B5C00D5AF06 /* Tabbar.swift */; };
+		A9B7ADB22B153DBD00D5AF06 /* ButtomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B7ADB12B153DBD00D5AF06 /* ButtomBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		A9B7AD422B0F6DD600D5AF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9B7AD452B0F6DD600D5AF06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9B7AD4F2B126BBE00D5AF06 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A9B7ADA52B152B5C00D5AF06 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		A9B7ADB12B153DBD00D5AF06 /* ButtomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		A9B7AD4C2B126ADC00D5AF06 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A9B7ADA42B152B3A00D5AF06 /* Components */,
 				A9B7AD4F2B126BBE00D5AF06 /* SwiftUIView.swift */,
 			);
 			path = View;
@@ -102,6 +107,23 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		A9B7ADA42B152B3A00D5AF06 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7ADAA2B152C2700D5AF06 /* CustomTabBar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A9B7ADAA2B152C2700D5AF06 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7ADA52B152B5C00D5AF06 /* Tabbar.swift */,
+				A9B7ADB12B153DBD00D5AF06 /* ButtomBarView.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,6 +140,8 @@
 			dependencies = (
 			);
 			name = FirstCapstone;
+			packageProductDependencies = (
+			);
 			productName = FirstCapstone;
 			productReference = A9B7AD3B2B0F6DD400D5AF06 /* FirstCapstone.app */;
 			productType = "com.apple.product-type.application";
@@ -146,6 +170,8 @@
 				Base,
 			);
 			mainGroup = A9B7AD322B0F6DD300D5AF06;
+			packageReferences = (
+			);
 			productRefGroup = A9B7AD3C2B0F6DD400D5AF06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -175,6 +201,8 @@
 				A9B7AD412B0F6DD400D5AF06 /* ContentView.swift in Sources */,
 				A9B7AD3F2B0F6DD400D5AF06 /* FirstCapstoneApp.swift in Sources */,
 				A9B7AD502B126BBE00D5AF06 /* SwiftUIView.swift in Sources */,
+				A9B7ADA62B152B5C00D5AF06 /* Tabbar.swift in Sources */,
+				A9B7ADB22B153DBD00D5AF06 /* ButtomBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
