@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  FirstCapstone
+
+  Created by Fahad Matlagitu on 10/12/2023.
+  
+*/
+
+
+//End of Fahads
+
+"title1" = "Convenient Tracking";
+"title2" = "Flexible Scheduling";
+"title3" = "Easy Package Management";
+
+"desc1" = "With a parcel delivery app, users can easily track the status and location of their packages in real-time.";
+"desc2" = "Users can schedule delivery times and locations , including same-day or next-day delivery options.";
+"desc3" = "The app makes it easy to manage multiple packages, including rerouting or rescheduling deliveries if necessary.";
+
+"next" = "Next";
+"skip" = "Skip";
+
+"guest" = "Guest";
+"signin" = "Sign in";
+"signup" = "Sign up";
+
+"continue" = "Or continue with";
+
+
+
+
+//End of Abdulrahmans
+
+"track_package" = "Track your package!";
+"enter_tracking_number" = "Please enter your tracking number";
+"check_rates" = "Check Rates";
+"pick_up" = "Pick-Up";
+"special_offers" = "Special Offers";
+"tracking_history" = "Tracking History";
+"see_all" = "See All";
+
+"checkRates" = "Check Rates";
+"calculateShipment" = "Calculate for shipment";
+"notificationPreferences" = "Set notification preferences for your purchases, payment & deliveries.";
+"pickUpPoint" = "Pick up - Point";
+"pickOffPoint" = "Pick Off - Point";
+"weight" = "Weight";
+"quantity" = "Quantity";
+"checkRatesButton" = "Check Rates";
+
+"rates" = "Rates";
+"pickUpPoint" = "Pick up - Point";
+"pickOffPoint" = "Pick Off - Point";
+"shipmentDetails" = "Shipment Details";
+"shipmentType" = "Shipment Type";
+"quantity" = "Quantity";
+"weight" = "Weight";
+"regular" = "Regular";
+"express" = "Express";
+"days" = "3 Days";
+"price" = "$";
+"descriptionRegular" = "Delivery in 3 days. Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+
+"tracking" = "Tracking";
+"orderStatus" = "Order Status";
+"inDelivery" = "In Delivery";
+
+"liveTracking" = "Live Tracking";
+"from" = "From";
+"to" = "To";
+
+"addShipment" = "Add Shipment";
+"shippingFrom" = "Shipping From";
+"shippingTo" = "Shipping To";
+"next" = "Next";
+
+"parcel" = "Parcel";
+
+"shippmentName" = "Shippment Name";
+
+"deliveryOptions" = "Delivery Options";
+
+"continue" = "Continue";
+
+"sameDay" = "Same Day";
+
+"subTotal" = "Sub Total";
+
+"deliveredToServicePoint" = "Delivered To Service Point";
+
+"payment" = "Payment";
+
+
+
+//End of Khalids
+

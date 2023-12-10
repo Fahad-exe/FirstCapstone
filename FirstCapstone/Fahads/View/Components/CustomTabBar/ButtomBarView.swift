@@ -7,33 +7,34 @@
 
 import SwiftUI
 
- struct ButtomBarView: View { @State private var selectedTab: Int = 0
+ struct ButtomBarView: View { 
+     @State var selectedTab: Int = 0
 
 var body: some View {
     VStack(spacing: 0) {
-        Spacer()
+      Spacer()
         VStack {
             switch selectedTab {
             case 0:
-                Text("Home")
+                HomeView()
+                   
             case 1:
-                Text("Favourite")
+                MapView()
             case 2:
-                // Your code for the "Add" tab
-                Text("AdvertiseView")
+               AddShippmentView()
             case 3:
-                Text("ChatsView()")
+                Vouchers()
             case 4:
-                Text("ProfileView()")
+                ProfileView()
             default:
                 EmptyView()
             }
         }
         
-        Spacer()
+      
         
         Tabbar(index: $selectedTab)
-    }.background(Color.black.opacity(0.5)).ignoresSafeArea()
+    }.background(Color.black.opacity(0.1)).ignoresSafeArea()
 }
 }
 

@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct FirstCapstoneApp: App {
+    @AppStorage("isDarkMode") private var isDarkMode = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView()
+                
+                .preferredColorScheme(isDarkMode ? .dark : .light)
         }
     }
 }

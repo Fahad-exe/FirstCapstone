@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  FirstCapstone
+
+  Created by Fahad Matlagitu on 10/12/2023.
+  
+*/
+
+
+//End of Fahads
+"title1" = "تتبع مريح";
+"title2" = "جدولة مرنة";
+"title3" = "إدارة الحزم بسهولة";
+
+"desc1" = "باستخدام تطبيق تسليم الطرود، يمكن للمستخدمين بسهولة تتبع حالة وموقع الطرود الخاصة بهم في الوقت الفعلي.";
+"desc2" = "يمكن للمستخدمين جدولة أوقات التسليم والمواقع، بما في ذلك خيارات التسليم في نفس اليوم أو في اليوم التالي.";
+"desc3" = "يسهل التطبيق إدارة حزم متعددة، بما في ذلك إعادة توجيه أو إعادة جدولة عمليات التسليم إذا لزم الأمر.";
+
+"next" = "التالي";
+"skip" = "تخطي";
+
+"guest" = "ضيف";
+"signin" = "تسجيل الدخول";
+"signup" = "التسجيل";
+
+"continue" = "التسجيل بإستخدام";
+//End of Abdulrahman
+
+
+"track_package" = "تتبع شحنتك!";
+"enter_tracking_number" = "الرجاء إدخال رقم التتبع";
+"check_rates" = "تحقق من الأسعار";
+"pick_up" = "استلام";
+"special_offers" = "عروض خاصة";
+"tracking_history" = "سجل التتبع";
+"see_all" = "عرض الكل";
+
+"checkRates" = "التحقق من الأسعار";
+"calculateShipment" = "حساب الشحن";
+"notificationPreferences" = "تعيين تفضيلات الإشعار لمشترياتك، والدفع، والتسليم.";
+"pickUpPoint" = "نقطة الاستلام";
+"pickOffPoint" = "نقطة التسليم";
+"weight" = "الوزن";
+"quantity" = "الكمية";
+"checkRatesButton" = "التحقق من الأسعار";
+
+"rates" = "الأسعار";
+"pickUpPoint" = "نقطة الاستلام";
+"pickOffPoint" = "نقطة التسليم";
+"shipmentDetails" = "تفاصيل الشحن";
+"shipmentType" = "نوع الشحن";
+"quantity" = "الكمية";
+"weight" = "الوزن";
+"regular" = "عادي";
+"express" = "سريع";
+"days" = "3 آيام";
+"price" = "دولار";
+"descriptionRegular" = "التوصيل في 3 أيام. Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+
+"tracking" = "تتبع";
+"orderStatus" = "حالة الطلب";
+"inDelivery" = "قيد التوصيل";
+
+"liveTracking" = "تتبع مباشر";
+"from" = "من";
+"to" = "إلى";
+
+"addShipment" = "إضافة شحنة";
+"shippingFrom" = "الشحن من";
+"shippingTo" = "الشحن إلى";
+"next" = "التالي";
+
+"parcel" = "شحنة";
+
+"shippmentName" = "اسم الشحنة";
+
+"deliveryOptions" = "باقة التوصيل";
+
+"continue" = "الاستمرار";
+
+"sameDay" = "اليوم";
+
+"subTotal" = "الإجمالي";
+
+"deliveredToServicePoint" = "الإيصال للخدمة";
+
+"payment" = "الدفع";
+
+//End of Khalids
